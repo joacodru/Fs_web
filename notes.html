@@ -1,0 +1,40 @@
+    <!-- jQuery syntax = $(selector).action() 
+    $ define/access jQuery
+
+    (selector): to query and find HTML elements
+
+    action(): action to be performed on the elements
+
+    example: $("p").hide
+
+    $(document).ready(function(){});: when the document is ready then execute the function specified
+     
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });: this function means that for those elements for wich there is an attribute
+    with data-toggle = "tooltip" perform the action called tooltip()
+
+    * The selelector usages are:
+    HTML elements: "p", "button"
+    #id: "#myCarousel"
+    Class: ".btn", ".btn.btn-default"
+    Attribute: "[href]", data-toggle="tooltip"
+    Current element: $(this)
+    and more...
+
+    * jQuery events
+    - Mouse: click, dblclick, mouseenter, mouseleave
+    - Keyboard: keypress, keydown, keyup
+    - Form: submit, change, focus, blur
+    - Document, Window: load, resize, scroll, unload
+
+    * jQuery Event Methods:
+    - ready(), slick(), dblclick(), mousedown(), on()...
+    
+    * Example: bootstrap carousel
+    - Data attributes:
+        - data-slide = "prev|next"
+        - data-slide-to = "0|1|2|..."
+        - data-ride = "carousel"
+        - data-interval = 5000
+    -->
